@@ -48,3 +48,4 @@ tratamento de duplicados. A seguir irei detalhar melhor as abordagens que tomei 
   - **Nomes das Colunas Usadas**:<br> ['Título', 'Nota', 'N_Avaliações', 'Desconto', 'Marca', 'Material', 'Gênero', 'Temporada', 'Review1', 'Review2', 'Review3', 'Qtd_Vendidos', 'Preço', 'Marca_Cod', 'Material_Cod', 'Temporada_Cod', 'Marca_Freq']
   - **Quantidade de Nulos**: 0 (por coluna)
   - **Quantidade de Duplicados**: 0
+- Esses dados foram salvos no arquivo 'ecommerce_tratado.csv', disponível na pasta 'dados'. 
