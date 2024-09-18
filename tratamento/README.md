@@ -3,7 +3,9 @@
 tratamento de duplicados. A seguir irei detalhar melhor as abordagens que tomei e o porquê delas;
 - Qualquer sugestão para melhoria de qualquer parte desse projeto, pode entrar em contato comigo pelo LinkedIn ou email (link no perfil).
 # Bibliotecas Utilizadas nessa Etapa 📋
-> Pandas
+> Pandas <br>
+> Matplotlib <br>
+> Seaborn
 # Construção dos Tratamentos 🔧
 ## Remoção de Colunas
 - Nessa parte do projeto, notei que existia uma coluna de índice desnecessária, pois o Pandas cria, assim que lê seus arquivos, uma coluna exatamente igual a essa;
