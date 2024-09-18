@@ -1,12 +1,16 @@
 # Tratamento de Dados 🎲
-- Para essa primeira etapa do projeto, irei realizar o tratamento dos dados focado em: Remoção de algumas colunas, tratamento de tipos, tratamento de nulos e
-tratamento de duplicados. A seguir irei detalhar melhor as abordagens que tomei e o porquê delas;
-- Qualquer sugestão para melhoria de qualquer parte desse projeto, pode entrar em contato comigo pelo LinkedIn ou email (link no perfil).
-# Bibliotecas Utilizadas nessa Etapa 📋
+- Para essa primeira etapa do projeto, irei realizar o tratamento dos dados focado em:
+  - Remoção de algumas colunas;
+  - Tratamento de tipos;
+  - Tratamento de nulos;
+  - Tratamento de duplicados.
+
+_OBS: Qualquer sugestão para melhoria de qualquer parte desse projeto, pode entrar em contato comigo pelo LinkedIn ou email (link no perfil)._
+# Bibliotecas Utilizadas 📋
 > Pandas <br>
 > Matplotlib <br>
 > Seaborn
-# Construção dos Tratamentos 🔧
+# Construção 🔧
 ## Remoção de Colunas
 - Nessa parte do projeto, notei que existia uma coluna de índice desnecessária, pois o Pandas cria, assim que lê seus arquivos, uma coluna exatamente igual a essa;
 - Também exclui as colunas do MinMaxScaler para poder refazê-las na etapa de preparação, pois, como irei fazer diversas alterações nas colunas originais, estas serão inviesadas;
@@ -42,15 +46,15 @@ tratamento de duplicados. A seguir irei detalhar melhor as abordagens que tomei 
 ## Tratamento de Duplicados
 - Com esse tratamento, notamos que 201 registros foram excluídos por estarem duplicados. Como não temos algum dado que necessariamente precisa ser único para ser válido (como um registro de clientes por CPF), esse tratamento será feito em toda base de dados e o Python irá fazer seu critério para duplicidade.
 ## Visualização de Outliers (EXTRA)
-- Pode-se visualizar as variáveis numéricas de Nota, N_Avaliações, Desconto e Preço estão com bastante valores discrepantes;
+- A partir do gráfico construído (tópico 2.5), pode-se visualizar as variáveis numéricas de Nota, N_Avaliações, Desconto e Preço estão com bastante valores discrepantes;
 - Porém isso é o esperado, já que são registro de produtos e alguns produtos podem ser mais populares que outros, e, por isso, terem uma nota maior, um desconto maior ou um preço maior. Por causa disso, não irei fazer o tratamento dessas outliers, mas deixarei aqui a nível de conhecimento (e como exemplo de como fazer esse tipo de gráfico comparativo).
-## Verificando Dados Tratados 
+## Salvando Dados
 - Ao final de todo esse trabalho, obtemos as seguintes informações:
-  - **Quantidade de Registros Originais**: 2199
-  - **Quantidade de Registros com Tratamento**: 1763
-  - **Quantidade de Colunas Originais**: 24
-  - **Quantidade de Colunas com Tratamento**: 17
-  - **Nomes das Colunas Usadas**:<br> ['Título', 'Nota', 'N_Avaliações', 'Desconto', 'Marca', 'Material', 'Gênero', 'Temporada', 'Review1', 'Review2', 'Review3', 'Qtd_Vendidos', 'Preço', 'Marca_Cod', 'Material_Cod', 'Temporada_Cod', 'Marca_Freq']
-  - **Quantidade de Nulos**: 0 (por coluna)
-  - **Quantidade de Duplicados**: 0
+  - **Quantidade de Registros Originais**: 2199;
+  - **Quantidade de Registros com Tratamento**: 1763;
+  - **Quantidade de Colunas Originais**: 24;
+  - **Quantidade de Colunas com Tratamento**: 17;
+  - **Nomes das Colunas**:<br> 'Título', 'Nota', 'N_Avaliações', 'Desconto', 'Marca', 'Material', 'Gênero', 'Temporada', 'Review1', 'Review2', 'Review3', 'Qtd_Vendidos', 'Preço', 'Marca_Cod', 'Material_Cod', 'Temporada_Cod', 'Marca_Freq';
+  - **Quantidade de Nulos**: 0 (por coluna);
+  - **Quantidade de Duplicados**: 0.
 - Esses dados foram salvos no arquivo 'ecommerce_tratado.csv', disponível na pasta 'dados'. 
