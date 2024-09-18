@@ -6,9 +6,8 @@ tratamento de duplicados. A seguir irei detalhar melhor as abordagens que tomei 
 > Pandas
 # Construção dos Tratamentos 🔧
 ## Remoção de Colunas
-- Nessa parte do projeto, eu fiz uma primeira verificação dos nomes das colunas dos dados e reparei que existiam colunas com tratamento de escala MinMax, onde, dando uma olhada nos seus dados únicos, percebi que eles eram diferentes dos dados originais;
-- Além disso, notei que existia uma coluna de índice desnecessária, pois o Pandas cria, assim que lê seus arquivos, uma coluna exatamente igual a essa;
-- Por conta desses pontos, decidi por excluir essas tais colunas para posteriormente realizar esse tipo de ajuste na etapa de preparação de dados. Essa remoção foi relacionada ao DataFrame ‘df_eco’ para distinção do original.
+- Nessa parte do projeto, notei que existia uma coluna de índice desnecessária, pois o Pandas cria, assim que lê seus arquivos, uma coluna exatamente igual a essa;
+- Por conta desse ponto, decidi por excluir essa coluna, que foi relacionada ao DataFrame ‘df_eco’ para distinção do original.
 ## Tratamento de Tipos
 ### Coluna 'Qtd_Vendidos'
 - Minha ideia de tratamento para essa coluna foi transformar em inteiro para poder fazer análises futuras;
