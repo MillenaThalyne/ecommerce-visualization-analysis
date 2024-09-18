@@ -7,6 +7,7 @@ tratamento de duplicados. A seguir irei detalhar melhor as abordagens que tomei 
 # Construção dos Tratamentos 🔧
 ## Remoção de Colunas
 - Nessa parte do projeto, notei que existia uma coluna de índice desnecessária, pois o Pandas cria, assim que lê seus arquivos, uma coluna exatamente igual a essa;
+- Também exclui as colunas do MinMaxScaler para poder refazê-las na etapa de preparação, pois, como irei fazer diversas alterações nas colunas originais, estas serão inviesadas;
 - Por conta desse ponto, decidi por excluir essa coluna, que foi relacionada ao DataFrame ‘df_eco’ para distinção do original.
 ## Tratamento de Tipos
 ### Coluna 'Qtd_Vendidos'
@@ -38,6 +39,9 @@ tratamento de duplicados. A seguir irei detalhar melhor as abordagens que tomei 
 - Esse campo representa a frequência das categorias de Material nos dados. Ela tem a mesma porcentagem de dados nulos que Material, o que leva a crer que foi criada enquanto os dados de Material contia nulos. Com isso, eu vou excluir ele agora e refazê-lo na etapa de preparação.
 ## Tratamento de Duplicados
 - Com esse tratamento, notamos que 201 registros foram excluídos por estarem duplicados. Como não temos algum dado que necessariamente precisa ser único para ser válido (como um registro de clientes por CPF), esse tratamento será feito em toda base de dados e o Python irá fazer seu critério para duplicidade.
+## Visualização de Outliers (EXTRA)
+- Pode-se visualizar as variáveis numéricas de Nota, N_Avaliações, Desconto e Preço estão com bastante valores discrepantes;
+- Porém isso é o esperado, já que são registro de produtos e alguns produtos podem ser mais populares que outros, e, por isso, terem uma nota maior, um desconto maior ou um preço maior. Por causa disso, não irei fazer o tratamento dessas outliers, mas deixarei aqui a nível de conhecimento (e como exemplo de como fazer esse tipo de gráfico comparativo).
 ## Verificando Dados Tratados 
 - Ao final de todo esse trabalho, obtemos as seguintes informações:
   - **Quantidade de Registros Originais**: 2199
