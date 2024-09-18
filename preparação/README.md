@@ -14,8 +14,8 @@ _OBS: Qualquer sugestão para melhoria de qualquer parte desse projeto, pode ent
 - Normalização de campos de texto a fim de deixar os registros de nomes com a primeira letra em maiúsculo.
 
 ### MinMaxScaler
-
-- Como mencionado na etapa anterior, irei realizar novamente o processo de criação dos campos utilizando o MinMaxScaler, pois as variáveis originais tiveram alteração de tratamento e, por isso, ele tipo de trabalho deveria ser realizado novamente;
+- A normalização é um processo que busca otimizar a escala de dados e existem diversas formas de fazê-lo, porém o utilizado nesse projeto é o módulo da biblioteca Sklearn, “MinMaxScaler()”, onde podemos adicionar um padrão nos dados (por padrão, é entre 0 e 1, mas pode ser atualizado a necessidade) a fim de comprimi-los nessa escala, sem alterar os originais. Isso pode ser bem útil para visualização de dados, pois são mais fáceis de visualizar e interpretar, especialmente em gráficos que comparam múltiplas características (a proposta desse trabalho);
+- Como mencionado na etapa anterior, irei realizar novamente o processo de criação dos campos MinMaxScaler, pois as variáveis originais tiveram alteração de tratamento e, por isso, esse tipo de retrabalho deveria ser realizado;
 - Com isso, será criada escalas para Nota, N_Avaliações, Desconto e Preço, a fim de fazer visualizações interessantes na próxima etapa.
 ## Engenharia de Feature
 ### Frequência
