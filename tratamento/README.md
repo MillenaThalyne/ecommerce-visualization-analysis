@@ -48,7 +48,7 @@ _OBS: Qualquer sugestão para melhoria de qualquer parte desse projeto, pode ent
 ## Visualização de Outliers (EXTRA)
 - A partir do gráfico construído (tópico 2.5), pode-se visualizar as variáveis numéricas de Nota, N_Avaliações, Desconto e Preço estão com bastante valores discrepantes;
 - Porém isso é o esperado, já que são registro de produtos e alguns produtos podem ser mais populares que outros, e, por isso, terem uma nota maior, um desconto maior ou um preço maior. Por causa disso, não irei fazer o tratamento dessas outliers, mas deixarei aqui a nível de conhecimento (e como exemplo de como fazer esse tipo de gráfico comparativo).
-## Salvando Dados
+## Salvando Dados Tratados
 - Ao final de todo esse trabalho, obtemos as seguintes informações:
   - **Quantidade de Registros Originais**: 2199;
   - **Quantidade de Registros com Tratamento**: 1763;
