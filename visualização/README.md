@@ -18,11 +18,7 @@ _OBS: Qualquer sugestão para melhoria de qualquer parte desse projeto, pode ent
 - A partir desse gráfico, podemos notar que a concentração das avaliações estão entre as notas de 5.0 e 4.0. Essas notas são de compras que quase não tiveram desconto e, também, são produtos com preços mais elevados.
 - Com isso, observamos que ter ou não desconto não é um fator muito relevante para a qualidade das avaliações (mesmo que alguns produtos tenham algum desconto). Também é possível notar que quanto maior o preço do produto, maior a possibilidade dele ter uma avaliação condizente, pois apresenta maior concentração na área esquerda superior. <br>
 
-<a href="https://github.com/usuario/repositorio/blob/main/visualização/Nota x Desconto e Preço.png" target="_blank">
-  <img src="https://cdn-icons-png.flaticon.com/512/2920/2920256.png" alt="Gráfico" width="20" style="vertical-align:middle;">
-  Visualizar Gráfico
-</a>
-
+[![Gráfico](https://img.shields.io/badge/Visualizar_Gráfico-yellow?style=flat&logo=bar-chart&logoColor=blue)](https://github.com/MillenaThalyne/ecommerce-visualization-analysis/blob/main/visualiza%C3%A7%C3%A3o/Nota%20x%20Desconto%20e%20Pre%C3%A7o.png)
 
 ## Mapa de Calor
 
