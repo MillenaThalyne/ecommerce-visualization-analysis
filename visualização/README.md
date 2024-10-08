@@ -13,7 +13,7 @@ _OBS: Qualquer sugestão para melhoria de qualquer parte desse projeto, pode ent
 > Matplotlib <br>
 > Seaborn <br>
 
-# Visualizações 📊
+# Gráficos 📈
 ## Mapa de Dispersão
 - A partir desse gráfico, podemos notar que a concentração das avaliações estão entre as notas de 5.0 e 4.0. Essas notas são de compras que quase não tiveram desconto e, também, são produtos com preços mais elevados.
 - Com isso, observamos que ter ou não desconto não é um fator muito relevante para a qualidade das avaliações (mesmo que alguns produtos tenham algum desconto). Também é possível notar que quanto maior o preço do produto, maior a possibilidade dele ter uma avaliação condizente, pois apresenta maior concentração na área esquerda superior. <br>
