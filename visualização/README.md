@@ -35,7 +35,7 @@ _OBS: Qualquer sugestão para melhoria de qualquer parte desse projeto, pode ent
 [![Gráfico](https://img.shields.io/badge/Visualizar_Gráfico-blue?style=flat&logo=bar-chart&logoColor=blue)](https://github.com/MillenaThalyne/ecommerce-visualization-analysis/blob/main/visualiza%C3%A7%C3%A3o/Quantidade%20de%20Produtos%20por%20G%C3%AAnero.png)
 
 ## Gráfico de Pizza
-  - Neste gráfico, é possível notar que a concentração de produtos são das temporadas: Primavera/Verão, Outono/Inverno e Primavera/Verão e Outono/Inverno, nessa ordem; <br>
+  - Neste gráfico, é possível notar que a concentração de produtos são das temporadas: Primavera/Verão e Outono/Inverno; <br>
 _OBS: As categorias precisavam ser tratadas, pois havia diferenças em um mesmo dado, que foram substituídas por “Primavera/Verão e Outono/Inverno”._ <br>
 
 [![Gráfico](https://img.shields.io/badge/Visualizar_Gráfico-blue?style=flat&logo=bar-chart&logoColor=blue)](https://github.com/MillenaThalyne/ecommerce-visualization-analysis/blob/main/visualiza%C3%A7%C3%A3o/Quantidade%20de%20Produtos%20por%20Temporada.png)
