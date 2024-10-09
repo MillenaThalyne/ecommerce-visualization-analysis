@@ -6,7 +6,8 @@
 
 > *Desafio disponibilizado pela EBAC na Profissão Cientista de Dados*
 
-Esse projeto tem como objetivo realizar diversos tratamentos em uma base de dados de avaliações de produtos do setor de E-commerce para, ao final, criar visualizações pertinentes a fim de coletar informações relevantes.
+Esse projeto tem como objetivo realizar diversos tratamentos em uma base de dados de avaliações de produtos do setor de E-commerce para, ao final, criar visualizações pertinentes a fim de coletar informações relevantes. <br>
+Para replicar esse projeto perfeitamente, basta utilizar o arquivo de requirements disponibilizado neste repositório! 🌟
 
 ## Base de Dados
 
