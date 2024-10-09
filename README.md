@@ -28,6 +28,8 @@ Os dados utilizados nesse projeto são avaliações de clientes para produtos E-
 - '**Material_Cod**': Código do Material do produto em avaliação,
 - '**Temporada_Cod**': Código de temporada do produto em avaliação.
 
+[![Gráfico](https://img.shields.io/badge/Dados-pink?style=flat&logo=bar-chart&logoColor=pink)](https://github.com/MillenaThalyne/ecommerce-visualization-analysis/tree/main/dados)
+
 ## Construção
 
 ### Tratamento
