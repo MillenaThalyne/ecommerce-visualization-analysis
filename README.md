@@ -1,4 +1,4 @@
-# Ecommerce Visualization Analysis
+# E-commerce Assessments Analysis Project
 ## Sobre o Projeto 
 > Autoria: Millena Thalyne
 
